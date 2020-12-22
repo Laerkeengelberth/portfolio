@@ -1,0 +1,118 @@
+/*Alt på mobile*/
+
+/*Burgermenu*/
+
+
+
+nav {
+    position: absolute;
+    z-index: 1;
+    margin-top: 0;
+    background: white;
+    height: 30%;
+    width: 97vw;
+}
+
+.nav_logo {
+    border-radius: 100%;
+}
+
+#menuknap {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    z-index: 2;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1.8vh;
+    left: 35vw;
+
+}
+
+#myheader img {
+    width: 50vh;
+    margin-left: 10vw;
+    margin-top: 20vw;
+
+
+}
+
+
+
+ul {
+    line-height: 200%;
+}
+
+#menu {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 4rem;
+    left: 25vw;
+    list-style-type: none;
+}
+
+.some {
+    margin-top: 1rem;
+}
+
+
+/*Classes til brug i js*/
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+/*Links styling*/
+
+a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkseagreen;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:active {
+    color: darkseagreen;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*FOOTER*/
+
+footer {
+    padding-top: 1.5rem;
+}
+
+.all_rights {
+    justify-content: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.some {
+    display: flex;
+    justify-content: right;
+    flex: 50%;
+}
+
+.row {
+    display: flex;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+footer img {
+    margin: 0px 3px;
+}

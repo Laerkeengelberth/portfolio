@@ -1,1 +1,7 @@
-
+.frontpage_image {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 90vw;
+    width: 95vw;
+}
