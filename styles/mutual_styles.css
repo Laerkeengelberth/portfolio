@@ -9,7 +9,7 @@ nav {
     z-index: 1;
     margin-top: 0;
     background: white;
-    height: 30%;
+    height: 28%;
     width: 97vw;
 }
 
@@ -18,21 +18,26 @@ nav {
 }
 
 #menuknap {
-    display: inline-block;
+    display: block;
     font-family: 'Roboto', sans-serif;
     color: black;
     z-index: 2;
     font-size: 1.5rem;
-    position: absolute;
-    top: 1.8vh;
-    left: 35vw;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 
 }
 
 #myheader img {
+    display: block;
     width: 50vh;
-    margin-left: 10vw;
-    margin-top: 20vw;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
 
 
 }
@@ -44,13 +49,16 @@ ul {
 }
 
 #menu {
-    display: inline-block;
-    text-align: center;
+    display: block;
+    text-align: center !important;
     font-family: 'Roboto', sans-serif;
     position: relative;
-    top: 4rem;
-    left: 25vw;
     list-style-type: none;
+    margin-left: auto;
+    margin-right: 33px;
+    z-index: 2;
+
+
 }
 
 .some {
@@ -85,34 +93,57 @@ a:active {
 
 /*FOOTER*/
 
-footer {
-    padding-top: 1.5rem;
-}
-
-.all_rights {
+.copyright {
     justify-content: left;
     font-family: 'Roboto', sans-serif;
+    flex: 0 0 50%;
 }
 
 .some {
-    display: flex;
-    justify-content: right;
-    flex: 50%;
+    flex: 0 0 50%;
+    text-align: right !important;
+    margin-top: 5%;
+}
+
+#footer {
+    padding: 0;
+}
+
+#footer img {
+    width: 40px;
+    margin: 0px 3px;
+    transition: all 0.5s ease;
+
 }
 
 .row {
     display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
-footer p {
+#footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+#footer h2 {
     margin: 0;
 }
 
-footer h2 {
-    margin: 0;
-    font-size: 1rem;
-}
-
-footer img {
+#footer img {
     margin: 0px 3px;
+
+}
+
+/*SKRIFTSTØRRELSER */
+
+h2 {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
 }
