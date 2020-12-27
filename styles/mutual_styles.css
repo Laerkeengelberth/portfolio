@@ -131,7 +131,7 @@ p {
     font-size: 0.9rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
 
     nav {
         height: 40px;
@@ -152,17 +152,18 @@ p {
     #menu li {
         display: inline-block;
         font-size: 1rem;
-        padding: 15px 27px 45px;
+        padding: 5px 27px 35px;
         margin-top: 50px;
         border-right: 2.3px solid #cdb891;
         height: 0;
+        margin-right: 50px;
 
     }
 
 
     .img {
         width: 50vh;
-        margin-left: 5vw;
+        margin-left: 6vw;
         margin-right: auto;
         margin-top: 0;
 
