@@ -9,15 +9,13 @@ function sidenVises() {
 
 function toggleMenu() {
     console.log("toggleMenu");
-    document.querySelector("nav").classList.toggle("hidden");
+    document.querySelector("#menu").classList.toggle("hidden");
 
-    let erSkjult = document.querySelector("nav").classList.contains("hidden");
+    let erSkjult = document.querySelector("menu").classList.contains("hidden");
 
-//    if (erSkjult == true) {
-    //        document.querySelector("#menuknap").textContent = "☰ MENU";
-    ////    } else {
-    //      //        document.querySelector("#menuknap").textContent = "✕";
-    //    }
+    if (erSkjult == true) {
+        document.querySelector("#menuknap").textContent = "☰ MENU";
 
+    }
 
 }
