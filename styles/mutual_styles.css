@@ -1,5 +1,9 @@
 /*Alt på mobile*/
 
+* {
+    box-sizing: border-box;
+}
+
 /*Burgermenu*/
 
 #menuknap {
@@ -56,7 +60,7 @@ nav {
 /*Links styling*/
 
 a {
-    color: black;
+    color: dimgrey;
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
     font-weight: 300;
@@ -64,62 +68,62 @@ a {
 }
 
 a:hover {
-    color: #cdb891;
+    color: #cbc0b8;
     font-family: 'Oswald', sans-serif;
 }
 
 a:active {
-    color: #cdb891;
+    color: #cbc0b8;
     font-family: 'Oswald', sans-serif;
 }
 
 /*FOOTER*/
 
 .copyright {
-    justify-content: left;
     font-family: 'Oswald', sans-serif;
+    color: dimgrey;
+    text-align: left;
     letter-spacing: 0.04em;
+    line-height: 0.3em;
     flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 1.9%;
 }
 
 .some {
-    flex: 0 0 50%;
-    text-align: right !important;
-    margin-top: 5%;
+    flex: 0 0 48%;
+    max-width: 46%;
+    text-align: right;
 }
 
-#footer {
+footer {
     padding: 0;
-}
-
-#footer img {
-    width: 40px;
-    margin: 0px 3px;
-    transition: all 0.5s ease;
-
+    margin-top: 1rem;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    box-sizing: border-box;
 }
 
-#footer p {
+footer p {
     margin: 0;
     font-size: 0.9rem;
+    line-height: 1.2;
 }
 
 #footer h2 {
     margin: 0;
-}
-
-#footer img {
-    margin: 0px 3px;
 
 }
 
 /*SKRIFTSTØRRELSER */
+
+h1 {
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
 
 h2 {
     font-size: 1rem;
@@ -129,6 +133,7 @@ h2 {
 p {
     font-family: 'Oswald', sans-serif;
     font-size: 0.9rem;
+    font-weight: 250;
 }
 
 @media (min-width: 1000px) {
@@ -154,7 +159,7 @@ p {
         font-size: 1rem;
         padding: 5px 27px 35px;
         margin-top: 50px;
-        border-right: 2.3px solid #cdb891;
+        border-right: 2.3px solid #cbc0b8;
         height: 0;
         margin-right: 50px;
 
@@ -166,6 +171,56 @@ p {
         margin-left: 6vw;
         margin-right: auto;
         margin-top: 0;
+
+    }
+
+    /*FOOTER*/
+
+    .copyright {
+        justify-content: left;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 0.04em;
+        flex: 0 0 50%;
+        margin-left: 0;
+    }
+
+    .some {
+        flex: 0 0 50%;
+        text-align: right !important;
+        margin-top: 2%;
+        max-width: 49.5%;
+
+    }
+
+    footer {
+        margin: 1rem;
+        margin-right: 4rem;
+        margin-left: 5rem;
+    }
+
+    #footer img {
+        width: 40px;
+        margin: 0px 3px;
+
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    #footer p {
+        margin: 0;
+        font-size: 0.9rem;
+    }
+
+    #footer h2 {
+        margin: 0;
+    }
+
+    #footer img {
+        margin: 0px 3px;
 
     }
 }
