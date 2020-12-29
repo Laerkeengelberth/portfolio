@@ -2,6 +2,103 @@
     position: relative;
     top: 0;
     left: 0;
-    height: 90vw;
-    width: 95vw;
+    height: 100%;
+    width: 100%;
+
 }
+
+.frontpage_text {
+    display: block;
+    position: absolute;
+    background-color: white;
+    bottom: 29.5% !important;
+    width: 40% !important;
+    height: 22% !important;
+    margin-left: 30% !important;
+    margin-right: 30% !important;
+    padding-right: 2%;
+    padding-left: 2%;
+
+}
+
+.projekter_knap {
+    display: block;
+    position: absolute;
+    bottom: 31.5% !important;
+    margin-left: 35% !important;
+    margin-right: 30% !important;
+    padding-right: 2%;
+    padding-left: 2%;
+    background-color: #2b645d;
+
+}
+
+@font-face {
+    font-family: 'shantikregular';
+    src: url('fonts/shantik-webfont.woff2') format('woff2'),
+        url('fonts/shantik-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1,
+p {
+    margin: 0px;
+    padding: 2px;
+}
+
+
+h1 {
+    font-family: 'shantikregular';
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p {
+    font-size: 0.7rem;
+    line-height: 1.4;
+}
+
+@media (min-width: 1000px) {
+
+    .frontpage_image {
+        height: 65vw;
+        width: 100vw;
+    }
+
+
+    .frontpage_text {
+        display: block;
+        position: absolute;
+        bottom: 1% !important;
+        background-color: white;
+        width: 30% !important;
+        height: 52% !important;
+        margin-left: 30% !important;
+        margin-right: 30% !important;
+        padding-right: 2%;
+        padding-left: 2%;
+
+    }
+
+    .projekter_knap {
+        display: block;
+        position: absolute;
+        bottom: 5.5% !important;
+        margin-left: 35% !important;
+        margin-right: 30% !important;
+        padding-right: 2%;
+        padding-left: 2%;
+        background-color: #2b645d;
+
+    }
+
+    h1 {
+        font-size: 3rem;
+
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
