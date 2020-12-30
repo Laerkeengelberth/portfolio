@@ -10,26 +10,26 @@
 .frontpage_text {
     display: block;
     position: absolute;
-    background-color: white;
-    bottom: 29.5% !important;
-    width: 40% !important;
+    background-color: #2b645d;
+    bottom: 25.5% !important;
+    width: 41% !important;
     height: 22% !important;
     margin-left: 30% !important;
     margin-right: 30% !important;
-    padding-right: 2%;
-    padding-left: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
 
 }
 
 .projekter_knap {
     display: block;
     position: absolute;
-    bottom: 31.5% !important;
+    bottom: 27.5% !important;
     margin-left: 35% !important;
     margin-right: 30% !important;
     padding-right: 2%;
     padding-left: 2%;
-    background-color: #2b645d;
+    background-color: white;
 
 }
 
@@ -46,6 +46,7 @@ h1,
 p {
     margin: 0px;
     padding: 2px;
+    color: white;
 }
 
 
@@ -56,27 +57,20 @@ h1 {
 }
 
 p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     line-height: 1.4;
 }
 
-@media (min-width: 1000px) {
-
-    .frontpage_image {
-        height: 65vw;
-        width: 100vw;
-    }
-
+@media (min-width: 700px) {
 
     .frontpage_text {
         display: block;
         position: absolute;
-        bottom: 1% !important;
-        background-color: white;
-        width: 30% !important;
-        height: 52% !important;
-        margin-left: 30% !important;
-        margin-right: 30% !important;
+        bottom: 9.7% !important;
+        width: 26% !important;
+        height: 29% !important;
+        margin-left: 34.4% !important;
+        margin-right: 33% !important;
         padding-right: 2%;
         padding-left: 2%;
 
@@ -85,12 +79,58 @@ p {
     .projekter_knap {
         display: block;
         position: absolute;
-        bottom: 5.5% !important;
-        margin-left: 35% !important;
+        bottom: 12% !important;
+        margin-left: 38% !important;
         margin-right: 30% !important;
         padding-right: 2%;
         padding-left: 2%;
-        background-color: #2b645d;
+
+    }
+
+
+    h1 {
+        font-family: 'shantikregular';
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .frontpage_image {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .frontpage_text {
+        display: block;
+        position: absolute;
+        bottom: 13.5% !important;
+        width: 27% !important;
+        height: 45% !important;
+        margin-left: 34.2% !important;
+        margin-right: 33% !important;
+        padding-right: 2%;
+        padding-left: 2%;
+
+    }
+
+    .projekter_knap {
+        display: block;
+        position: absolute;
+        bottom: 19% !important;
+        margin-left: 41% !important;
+        margin-right: 30% !important;
+        padding-right: 2%;
+        padding-left: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
 
     }
 
