@@ -1,0 +1,108 @@
+#kontakt {
+    background-color: #F0EBE7;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.kontaktinfo {
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+    margin-top: 40px;
+
+
+}
+
+.image img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 95%;
+
+}
+
+/*    SKRIFT*/
+
+p {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Forms */
+
+input,
+textarea,
+button {
+    display: block;
+    background: white;
+    border: none;
+    width: 23rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.formular_container form {
+    color: black;
+    border-radius: 120px;
+    margin-left: 16.2rem;
+
+}
+
+button {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+input,
+select {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+@media (min-width: 900px) {
+
+    #kontakt {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #F0EBE7;
+        margin: 1rem;
+        margin-right: 4.5rem;
+        margin-left: 5rem;
+        padding: 2rem;
+    }
+
+    .image {
+        grid-column: 2/2;
+    }
+
+    .kontaktmig {
+        grid-column: 1/1;
+
+    }
+
+    .image img {
+        width: 80%;
+        margin-top: 6rem;
+        margin-left: 4rem;
+    }
+
+    .kontaktinfo img {
+        height: 2vw;
+    }
+
+}

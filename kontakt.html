@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="styles/mutual_styles.css">
+    <link rel="stylesheet" href="styles/kontakt.css">
+    <meta name="robots" content="noindex" />
+</head>
+
+<body>
+    <!--   Navigations bar og header begynder -->
+    <header>
+        <nav>
+            <div id="menuknap">☰ MENU</div>
+            <ul id="menu" class="hidden">
+                <li> <a href="portfolio.html">PORTFOLIO</a></li>
+                <li> <a href="om.html">OM MIG</a></li>
+                <li> <a href="kontakt.html">KONTAKT</a></li>
+            </ul>
+        </nav>
+        <div class="img">
+            <a href="forside.html"> <img src="images/Artboard%201.svg" alt=""></a>
+        </div>
+    </header>
+    <!--    Navigations bar og header slutter-->
+
+    <!--   Indholdet af siden begynder -->
+    <section id="kontakt">
+        <div class="kontaktmig">
+            <h1>KONTAKT</h1>
+            <p>Du er meget velkommen til at kontakte mig, hvis du har nogle spørgsmål.</p>
+            <div class="kontaktinfo">
+                <li><img src="images/icons/email-2.svg" alt="email" class="email" width="38" height="38">
+                    <p>laerkeengelberth@live.dk</p>
+                </li>
+                <li><img src="images/icons/phone-call.svg" alt="telefon" class="telefon" width="28" height="38">
+                    <p>+45 22464731</p>
+                </li>
+            </div>
+            <form>
+                <div class="felt">
+                    <h2>Skriv til mig</h2>
+                    <label>
+                        Navn
+                        <input type="text" id="navn" name="navn" required>
+                    </label>
+                </div>
+
+                <div class="felt">
+                    <label>
+                        E-mail
+                        <input type="email" id="email" name="email" required>
+                    </label>
+                </div>
+                <div class="felt">
+                    <label>
+                        Skriv en besked
+                        <textarea name="besked" rows="6"> </textarea>
+                    </label>
+                </div>
+                <button>Send</button>
+            </form>
+        </div>
+        <div class="image">
+            <img src="images/IMG_222522.jpg" alt="">
+        </div>
+    </section>
+
+    <!--    Footer begynder -->
+    <footer>
+        <div class="row">
+            <div class="copyright">
+                <h2>Lærke W. Engelberth</h2>
+                <p>Copyright © 2020</p>
+            </div>
+            <div class="some">
+                <a href="https://www.instagram.com/laerkeengelberth/"> <img src="images/instagram-2.svg" alt="instagram" class="instagram" width="38" height="38"></a>
+                <a href="https://www.facebook.com/laerkeengelberth"><img src="images/facebook-2.svg" alt="facebook" class="facebook" width="38" height="38"></a>
+                <a href="mailto:laerkeengelberth@live.dk"><img src="images/email.svg" alt="email" class="email" width="38" height="38"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
