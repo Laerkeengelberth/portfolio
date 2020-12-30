@@ -50,10 +50,10 @@ button {
     border-radius: 4px;
 }
 
-.formular_container form {
+form {
     color: black;
     border-radius: 120px;
-    margin-left: 16.2rem;
+    margin-top: 2rem;
 
 }
 
