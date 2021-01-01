@@ -1,0 +1,61 @@
+body {
+    background-image: url(images/bg3.jpg);
+}
+
+@media (min-width: 1000px) {
+
+    h1 {
+        font-size: 3rem;
+        margin-left: 5rem;
+    }
+
+    .tema:hover .overlay {
+        opacity: 1;
+    }
+
+    .temaer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+
+    .tema {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .temaer img {
+        display: block;
+        width: 20vw;
+        height: 20vw;
+        grid-gap: 0;
+        opacity: 80%;
+
+    }
+
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 20vw;
+        width: 20vw;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #2b645d;
+    }
+
+}
