@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/bg3.jpg);
+    background-image: url(images/new5.jpg);
 }
 
 @media (min-width: 1000px) {
@@ -7,6 +7,7 @@ body {
     h1 {
         font-size: 3rem;
         margin-left: 5rem;
+        color: #2b645d;
     }
 
     .tema:hover .overlay {
@@ -14,23 +15,29 @@ body {
     }
 
     .temaer {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        margin-top: 9rem;
+        margin: 2rem;
+        margin-left: 3rem;
+        justify-content: space-between;
+
 
     }
 
     .tema {
+        margin-top: 2.5rem;
         position: relative;
         overflow: hidden;
+
+
     }
 
     .temaer img {
-        display: block;
+        display: inline;
         width: 20vw;
-        height: 20vw;
-        grid-gap: 0;
+        height: 18vw;
         opacity: 80%;
+        margin: 0;
 
     }
 
@@ -43,6 +50,7 @@ body {
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         font-family: 'Oswald', sans-serif;
+
     }
 
     .overlay {
@@ -51,7 +59,7 @@ body {
         bottom: 0;
         left: 0;
         right: 0;
-        height: 20vw;
+        height: 18vw;
         width: 20vw;
         opacity: 0;
         transition: .5s ease;

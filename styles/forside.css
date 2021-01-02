@@ -111,7 +111,7 @@ p {
     .frontpage_text {
         display: block;
         position: absolute;
-        bottom: 13.5% !important;
+        bottom: 7.5% !important;
         width: 27% !important;
         height: 45% !important;
         margin-left: 34.2% !important;
@@ -124,7 +124,7 @@ p {
     .projekter_knap {
         display: block;
         position: absolute;
-        bottom: 19% !important;
+        bottom: 12% !important;
         margin-left: 41% !important;
         margin-right: 30% !important;
         padding-right: 2%;
