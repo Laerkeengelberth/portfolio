@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/new5.jpg);
+    background-image: url(images/ny1%2017.29.56.jpg);
 }
 
 .tema:hover .overlay {
@@ -50,6 +50,7 @@ body {
 @media (min-width: 900px) {
 
     h1 {
+        margin-top: 5rem;
         font-size: 3rem;
         margin-left: 5rem;
         color: #2b645d;
@@ -65,6 +66,7 @@ body {
         margin: 2rem;
         margin-left: 3rem;
         justify-content: space-between;
+        padding: 1rem;
 
 
     }

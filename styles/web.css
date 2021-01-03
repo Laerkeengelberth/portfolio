@@ -1,0 +1,58 @@
+body {
+    background-image: url(images/ny1%2017.29.56.jpg);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #2b645d;
+}
+
+p {
+    line-height: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 1000px) {
+
+    .tekst1 {
+        padding: 2rem;
+        grid-column: 1/1;
+        grid-row: 1/1;
+
+    }
+
+    .tekst2 {
+        padding: 2rem;
+        grid-column: 1/1;
+        grid-row: 2/2;
+
+    }
+
+    .skills {
+        grid-column: 2/2;
+        grid-row: 2/2;
+        padding-left: 6rem;
+
+    }
+
+
+    #web {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: white;
+        box-sizing: border-box;
+        margin-top: 8rem;
+        margin-right: 4.5rem;
+        margin-left: 5rem;
+    }
+
+    #web img {
+        grid-column: 2/2;
+        grid-row: 1/2;
+        width: 50vw;
+        height: 50vw;
+
+    }
+
+
+}
