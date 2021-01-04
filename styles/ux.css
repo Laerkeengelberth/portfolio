@@ -1,0 +1,111 @@
+body {
+    background-image: url(images/bgnew2.jpg);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #2b645d;
+
+}
+
+.skills h2 {
+    font-size: 1.3rem;
+    color: #2b645d;
+}
+
+p {
+    line-height: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.col2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#ux {
+    background-color: white;
+    box-sizing: border-box;
+    margin-top: 7rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.link a {
+    position: relative;
+    font-size: 2.5rem;
+    background-color: white;
+    border-radius: 2vw;
+    font-family: 'Teko', sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.col1 img {
+    width: 85vw;
+    height: 60vw;
+
+}
+
+
+.col2 img {
+    width: 85vw;
+    height: 85vw;
+
+}
+
+
+@media (min-width: 800px) {
+
+    .text {
+        padding-left: 2rem;
+        padding-right: 6rem;
+    }
+
+    .imgtext {
+        padding-left: 2rem;
+        font-style: italic;
+    }
+
+
+    .skills {
+        padding-left: 4rem;
+        padding-bottom: 4rem;
+
+    }
+
+    .link {
+        padding-left: 4rem;
+    }
+
+
+    #ux {
+        display: flex;
+        background-color: white;
+        box-sizing: border-box;
+        margin-top: 7rem;
+        margin-right: 4.5rem;
+        margin-left: 5rem;
+    }
+
+    .col1 img {
+        width: 40vw;
+        height: 25vw;
+
+    }
+
+    .col2 img {
+        width: 45vw;
+        height: 30vw;
+        padding-left: 3rem;
+
+    }
+
+}

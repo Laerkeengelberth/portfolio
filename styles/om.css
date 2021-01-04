@@ -24,6 +24,10 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
+.col1 p {
+    font-style: italic;
+}
+
 @media (min-width: 1000px) {
 
     .section_wrapper {

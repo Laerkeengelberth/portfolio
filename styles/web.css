@@ -1,9 +1,14 @@
 body {
-    background-image: url(images/ny1%2017.29.56.jpg);
+    background-image: url(images/bgnew2.jpg);
 }
 
 h1 {
     font-size: 2rem;
+    color: #2b645d;
+}
+
+.col2 h2 {
+    font-size: 1.3rem;
     color: #2b645d;
 }
 
@@ -12,45 +17,74 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 1000px) {
+.col1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
 
-    .tekst1 {
-        padding: 2rem;
-        grid-column: 1/1;
-        grid-row: 1/1;
+}
 
-    }
+.col2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
-    .tekst2 {
-        padding: 2rem;
-        grid-column: 1/1;
-        grid-row: 2/2;
+#web {
+    background-color: white;
+    box-sizing: border-box;
+    margin-top: 7rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.link a {
+    position: relative;
+    font-size: 2.3rem;
+    background-color: white;
+    border-radius: 2vw;
+    font-family: 'Teko', sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+
+
+#web img {
+    width: 90vw;
+    height: 90vw;
+
+}
+
+
+@media (min-width: 800px) {
+
+    .col1 {
+        padding-left: 2rem;
+        padding-right: 2rem;
 
     }
 
     .skills {
-        grid-column: 2/2;
-        grid-row: 2/2;
-        padding-left: 6rem;
+        padding-left: 4rem;
+        padding-bottom: 4rem;
 
+    }
+
+    .link {
+        padding-left: 4rem;
     }
 
 
     #web {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
         background-color: white;
         box-sizing: border-box;
-        margin-top: 8rem;
+        margin-top: 7rem;
         margin-right: 4.5rem;
         margin-left: 5rem;
     }
 
     #web img {
-        grid-column: 2/2;
-        grid-row: 1/2;
-        width: 50vw;
-        height: 50vw;
+        width: 45vw;
+        height: 30vw;
 
     }
 
