@@ -8,11 +8,6 @@ h1 {
 
 }
 
-.skills h2 {
-    font-size: 1.3rem;
-    color: #2b645d;
-}
-
 p {
     line-height: 1.5rem;
     font-family: 'Roboto', sans-serif;
@@ -48,41 +43,40 @@ p {
 }
 
 
-.col1 img {
+.col2 img {
     width: 85vw;
-    height: 60vw;
+    height: 70vw;
 
 }
 
-
-.col2 img {
-    width: 85vw;
-    height: 85vw;
-
+.text img {
+    width: 90vw;
+    height: 53vw;
 }
 
 
 @media (min-width: 800px) {
 
     .text {
-        padding-left: 2rem;
-        padding-right: 6rem;
-    }
-
-    .imgtext {
-        padding-left: 2rem;
-        font-style: italic;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
 
     .skills {
-        padding-left: 4rem;
+        padding-left: 8rem;
         padding-bottom: 4rem;
 
     }
 
-    .link {
-        padding-left: 4rem;
+    .text img {
+        width: 35vw;
+        height: 23vw;
+    }
+
+    .link2 {
+        padding-top: 3rem;
+        font-size: 2rem;
     }
 
 
@@ -93,11 +87,6 @@ p {
         margin-top: 7rem;
         margin-right: 4.5rem;
         margin-left: 5rem;
-    }
-
-    .col1 img {
-        width: 40vw;
-        height: 25vw;
 
     }
 
