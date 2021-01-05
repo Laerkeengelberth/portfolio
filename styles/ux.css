@@ -1,6 +1,8 @@
 body {
-    background-image: url(images/bgnew2.jpg);
+    background-image: url(images/mobilebg.jpg);
 }
+
+/*SKRIFTTYPER OG LINKS STYLE*/
 
 h1 {
     font-size: 2rem;
@@ -13,87 +15,135 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-.col1 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-
+.imgtext p {
+    font-style: italic;
 }
 
-.col2 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+.link3 {
+    position: relative;
+    font-size: 2.5rem;
+    line-height: 1.1em;
+    text-align: left;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
 }
+
+/*INDHOLD */
 
 #ux {
     background-color: white;
     box-sizing: border-box;
-    margin-top: 7rem;
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
-}
-
-.link a {
-    position: relative;
-    font-size: 2.5rem;
-    background-color: white;
-    border-radius: 2vw;
-    font-family: 'Teko', sans-serif;
-    display: inline-block;
-    text-align: left;
-}
-
-
-.col2 img {
-    width: 85vw;
-    height: 70vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
 
 }
 
-.text img {
+.col1 {
+    padding-left: 4vw;
+    padding-right: 12vw;
+    padding-top: 1vw;
+
+}
+
+.col2 {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.skills {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+
+}
+
+/*IMAGE STØRRELSER */
+
+.col1 img {
     width: 90vw;
     height: 53vw;
+    margin-top: 4vw;
 }
 
+.col2 img {
+    width: 90vw;
+    height: 65vw;
 
-@media (min-width: 800px) {
+}
 
-    .text {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
+@media (min-width: 900px) {
 
-
-    .skills {
-        padding-left: 8rem;
-        padding-bottom: 4rem;
-
-    }
-
-    .text img {
-        width: 35vw;
-        height: 23vw;
-    }
-
-    .link2 {
-        padding-top: 3rem;
-        font-size: 2rem;
-    }
-
+    /*    INDHOLD */
 
     #ux {
         display: flex;
         background-color: white;
         box-sizing: border-box;
-        margin-top: 7rem;
-        margin-right: 4.5rem;
-        margin-left: 5rem;
+        margin-top: 7vw;
+        margin-right: 6vw;
+        margin-left: 6vw;
+
+    }
+
+    .col1 {
+        padding-left: 2vw;
+        padding-right: 1vw;
+
+    }
+
+    .col2 {
+        padding-top: 4vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .text {
+        padding-right: 6.5vw;
+    }
+
+
+    .link1 {
+        padding-left: 3vw;
+    }
+
+    .link2 {
+        padding-left: 3vw;
+        padding-bottom: 3vw;
+    }
+
+    .link3 {
+        position: relative;
+        top: 3vw;
+        left: 6vw;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .skills {
+        position: relative;
+        left: 6vw;
+        top: 3vw;
+        bottom: 4vw;
+
+    }
+
+    .imgtext {
+        padding-left: 3vw;
+    }
+
+
+
+    /*    IMAGE STØRRELSER*/
+
+    .col1 img {
+        margin-top: 2vw;
+        width: 38vw;
+        height: 23vw;
 
     }
 
     .col2 img {
         width: 45vw;
         height: 30vw;
-        padding-left: 3rem;
 
     }
 
