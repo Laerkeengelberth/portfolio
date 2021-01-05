@@ -1,5 +1,11 @@
 body {
-    background-image: url(images/ny1%2017.29.56.jpg);
+    background-image: url(images/mobilebg.jpg);
+}
+
+h1 {
+    font-size: 3rem;
+    color: black;
+    padding-left: 5vw;
 }
 
 .tema:hover .overlay {
@@ -8,17 +14,17 @@ body {
 
 
 .tema {
-    margin-top: 2.5rem;
     position: relative;
     overflow: hidden;
+    margin-left: 5vw;
 }
 
 .temaer img {
     display: inline;
-    width: 87vw;
+    width: 85vw;
     height: 85vw;
     opacity: 80%;
-    margin: 0;
+    margin-bottom: 4vw;
 
 }
 
@@ -41,19 +47,17 @@ body {
     left: 0;
     right: 0;
     height: 85vw;
-    width: 87vw;
+    width: 85vw;
     opacity: 0;
     transition: .5s ease;
     background-color: #2b645d;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 700px) {
 
     h1 {
-        margin-top: 5rem;
+        margin-top: 4vw;
         font-size: 3rem;
-        margin-left: 5rem;
-        color: #2b645d;
     }
 
     .tema:hover .overlay {
@@ -62,19 +66,16 @@ body {
 
     .temaer {
         display: flex;
-        margin-top: 9rem;
-        margin: 2rem;
-        margin-left: 3rem;
+        margin: 4.5vw;
         justify-content: space-between;
-        padding: 1rem;
 
 
     }
 
     .tema {
-        margin-top: 2.5rem;
         position: relative;
         overflow: hidden;
+        margin-left: 0;
 
 
     }
@@ -82,7 +83,7 @@ body {
     .temaer img {
         display: inline;
         width: 21vw;
-        height: 19vw;
+        height: 21vw;
         opacity: 80%;
         margin: 0;
 
@@ -106,7 +107,7 @@ body {
         bottom: 0;
         left: 0;
         right: 0;
-        height: 19vw;
+        height: 21vw;
         width: 21vw;
         opacity: 0;
         transition: .5s ease;

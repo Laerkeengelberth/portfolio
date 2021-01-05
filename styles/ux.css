@@ -17,6 +17,15 @@ p {
 
 .imgtext p {
     font-style: italic;
+    padding-left: 6vw;
+}
+
+.link1 {
+    padding-left: 6vw;
+}
+
+.link2 {
+    padding-left: 6vw;
 }
 
 .link3 {
@@ -66,7 +75,9 @@ p {
 
 .col2 img {
     width: 90vw;
-    height: 65vw;
+    height: 90vw;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
 
 }
 
@@ -96,13 +107,20 @@ p {
         padding-right: 0;
     }
 
+    .text2 {
+        padding-top: 2vw;
+        padding-left: 3vw;
+        padding-right: 6vw;
+    }
+
     .text {
-        padding-right: 6.5vw;
+        padding-right: 14vw;
     }
 
 
     .link1 {
         padding-left: 3vw;
+        padding-top: 3vw;
     }
 
     .link2 {
@@ -112,23 +130,24 @@ p {
 
     .link3 {
         position: relative;
-        top: 3vw;
-        left: 6vw;
+        top: 2vw;
+        left: 3vw;
         padding-top: 0;
         padding-bottom: 0;
     }
 
     .skills {
         position: relative;
-        left: 6vw;
-        top: 3vw;
+        left: 3vw;
+        top: 2vw;
         bottom: 4vw;
 
     }
 
-    .imgtext {
+    .imgtext p {
         padding-left: 3vw;
     }
+
 
 
 
@@ -142,8 +161,11 @@ p {
     }
 
     .col2 img {
-        width: 45vw;
+        width: 30vw;
         height: 30vw;
+        margin-top: 0;
+        margin-right: 12vw;
+        margin-bottom: 0;
 
     }
 

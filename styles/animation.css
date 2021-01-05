@@ -19,9 +19,9 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-.col2 .link {
+.link1 {
     position: relative;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     background-color: white;
     text-align: left;
 }
@@ -45,6 +45,7 @@ p {
 .col2 {
     padding-left: 4vw;
     padding-right: 4vw;
+    padding-top: 4vw;
 }
 
 .text {
@@ -54,6 +55,10 @@ p {
 
 .link3 {
     padding-bottom: 4vw;
+}
+
+.imgtext {
+    font-style: italic;
 }
 
 /*IMAGE STØRRELSER */
@@ -90,8 +95,13 @@ p {
 
     }
 
+    .col2 {
+        padding-top: 6vw;
+    }
+
     .text {
         padding-right: 1.5vw;
+        padding-bottom: 2vw;
 
     }
 
@@ -103,15 +113,31 @@ p {
 
     }
 
-    .col2 .link {
-        padding-left: 3vw;
+    .link1 {
+        padding-left: 6vw;
     }
+
+    .link2 {
+        padding-left: 6vw;
+        padding-top: 6vw;
+        padding-bottom: 1vw;
+    }
+
+    .link3 {
+        padding-left: 6vw;
+        padding-top: 1vw;
+        padding-bottom: 2vw;
+    }
+
+    .imgtext {
+        margin-bottom: 2vw;
+    }
+
+
 
     /*    IMAGE STØRRELSER*/
 
     .col1 img {
-        margin-top: 3vw;
-        margin-bottom: 2vw;
         width: 30vw;
         height: 40vw;
     }
@@ -119,6 +145,7 @@ p {
     .col2 img {
         width: 45vw;
         height: 30vw;
+        margin-bottom: 5vw;
 
     }
 
