@@ -13,14 +13,15 @@
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.1em;
     font-size: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 1.3rem;
     cursor: pointer;
+    color: dimgrey;
 
 
 }
 
 nav {
-    height: 88px;
+    height: 58px;
 
 }
 
@@ -43,6 +44,7 @@ nav {
     align-content: center;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .some {
