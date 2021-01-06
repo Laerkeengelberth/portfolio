@@ -15,7 +15,7 @@
     font-size: 1.5rem;
     margin-top: 1.3rem;
     cursor: pointer;
-    color: dimgrey;
+    color: black;
 
 
 }
@@ -62,7 +62,7 @@ nav {
 /*Links styling*/
 
 a {
-    color: dimgrey;
+    color: black;
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
     font-weight: 300;
@@ -111,6 +111,12 @@ a:active {
 footer {
     padding: 0;
     margin-top: 1rem;
+}
+
+footer img {
+    width: 40px;
+    margin: 0px 1px;
+
 }
 
 .row {
@@ -211,7 +217,7 @@ p {
         flex: 0 0 50%;
         text-align: right !important;
         margin-top: 2%;
-        max-width: 49.5%;
+        max-width: 48.5%;
 
     }
 
@@ -221,11 +227,6 @@ p {
         margin-left: 5rem;
     }
 
-    #footer img {
-        width: 40px;
-        margin: 0px 3px;
-
-    }
 
     .row {
         display: flex;
@@ -242,8 +243,4 @@ p {
         margin: 0;
     }
 
-    #footer img {
-        margin: 0px 2px;
-
-    }
 }
