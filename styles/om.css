@@ -21,7 +21,7 @@ p {
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .col1 p {
@@ -62,11 +62,7 @@ h1 {
     /*    SKRIFT*/
 
     p {
-        font-size: 1.2rem;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    h1 {
+        font-size: 1.1rem;
         font-family: 'Roboto', sans-serif;
     }
 
