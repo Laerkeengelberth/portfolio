@@ -8,6 +8,10 @@ h1 {
     padding-left: 5vw;
 }
 
+.portfolio {
+    color: #2b645d;
+}
+
 .tema:hover .overlay {
     opacity: 1;
 }

@@ -12,7 +12,7 @@
     padding-right: 1rem;
 }
 
-/*    SKRIFT*/
+/*    SKRIFT OG LINKS STYLE */
 
 p {
     font-size: 1.2rem;
@@ -26,6 +26,10 @@ h1 {
 
 .col1 p {
     font-style: italic;
+}
+
+.om {
+    color: #2b645d;
 }
 
 @media (min-width: 1000px) {
