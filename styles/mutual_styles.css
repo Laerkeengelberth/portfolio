@@ -1,10 +1,24 @@
-/*Alt på mobile*/
+/* Mobile version*/
 
 * {
     box-sizing: border-box;
 }
 
-/*Burgermenu*/
+/*HEADER / BURGERMENU*/
+
+#menu {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: 30px;
+    letter-spacing: 0.070em;
+    line-height: 2rem;
+    background-color: white;
+    opacity: 0.9;
+
+
+}
 
 #menuknap {
     display: block;
@@ -25,19 +39,14 @@ nav {
 
 }
 
-#menu {
-    list-style-type: none;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    margin-left: auto;
-    margin-right: 30px;
-    letter-spacing: 0.070em;
-    line-height: 2rem;
-    background-color: white;
-    opacity: 0.9;
+/* CLASSES TIL BRUG I JS*/
 
-
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
 }
+
+/*IMAGES*/
 
 .img {
     width: 50vh;
@@ -47,19 +56,31 @@ nav {
 
 }
 
-.some {
-    margin-top: 1rem;
+/*TEXT STYLES */
+
+
+@font-face {
+    font-family: 'violetteregular';
+    src: url('fonts/violette-webfont.woff2') format('woff2'),
+        url('fonts/violette-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-
-/*Classes til brug i js*/
-
-.hidden {
-    opacity: 0;
-    transform: translateX(-100%);
+h1 {
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
 }
 
-/*Links styling*/
+h2 {
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+/*LINKS STYLES*/
 
 a {
     color: black;
@@ -70,30 +91,17 @@ a {
 }
 
 a:hover {
-    color: #cbc0b8;
+    color: #2b645d;
     font-family: 'Oswald', sans-serif;
 }
 
 a:active {
-    color: #cbc0b8;
+    color: #2b645d;
     font-family: 'Oswald', sans-serif;
-}
-
-.kontakt {
-    color: blue;
 }
 
 
 /*FOOTER*/
-
-@font-face {
-    font-family: 'violetteregular';
-    src: url('fonts/violette-webfont.woff2') format('woff2'),
-        url('fonts/violette-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 .copyright {
     font-family: 'Oswald', sans-serif;
@@ -110,6 +118,7 @@ a:active {
     flex: 0 0 48%;
     max-width: 46%;
     text-align: right;
+    margin-top: 3vw;
 }
 
 footer {
@@ -149,27 +158,9 @@ footer p {
     transition-delay: 0s;
 }
 
-/*SKRIFTSTØRRELSER */
-
-h1 {
-    font-size: 1.5rem;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-}
-
-h2 {
-    font-size: 1rem;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-}
-
-p {
-    font-family: 'Oswald', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 250;
-}
-
 @media (min-width: 1000px) {
+
+    /*HEADER / MENU */
 
     nav {
         height: 40px;
@@ -197,6 +188,8 @@ p {
         margin-right: 50px;
 
     }
+
+    /*    IMAGES */
 
 
     .img {
@@ -241,10 +234,6 @@ p {
     #footer p {
         margin: 0;
         font-size: 0.9rem;
-    }
-
-    #footer h2 {
-        margin: 0;
     }
 
 }

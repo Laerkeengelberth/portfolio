@@ -1,29 +1,8 @@
 body {
-    background-image: url(images/bgnew2.jpg);
+    background-image: url(images/background.jpg);
 }
 
-/*
-
-SKRIFTTYPER OG LINKS STYLE
-*/
-
-h1 {
-    font-size: 2rem;
-    color: #2b645d;
-
-}
-
-p {
-    line-height: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-.col2 h2 {
-    font-size: 1.3rem;
-    color: #2b645d;
-}
-
-/*INDHOLD*/
+/*CONTENT*/
 
 #indhold {
     background-color: white;
@@ -50,7 +29,39 @@ p {
 
 }
 
-/*IMAGE & VIDEO STØRRELSER*/
+/*TEXT STYLES*/
+
+h1 {
+    font-size: 2rem;
+    color: #2b645d;
+
+}
+
+p {
+    line-height: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 250;
+}
+
+.col2 h2 {
+    font-size: 1.3rem;
+    color: #2b645d;
+}
+
+/*LINKS STYLES*/
+
+.link {
+    position: relative;
+    font-size: 2.5rem;
+    line-height: 1.1em;
+    text-align: left;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+
+}
+
+
+/*IMAGES & VIDEO */
 
 .col1 iframe {
     width: 87vw;
@@ -63,20 +74,10 @@ p {
 
 }
 
-.link {
-    position: relative;
-    font-size: 2.5rem;
-    line-height: 1.1em;
-    text-align: left;
-    padding-top: 4vw;
-    padding-bottom: 4vw;
-
-}
-
 @media (min-width: 800px) {
 
 
-    /*    INDHOLD*/
+    /* CONTENT */
 
     #indhold {
         display: flex;
@@ -112,7 +113,7 @@ p {
         padding-left: 4rem;
     }
 
-    /*    IMAGE & VIDEO STØRRELSER */
+    /*    IMAGES & VIDEO */
 
 
     #indhold img {

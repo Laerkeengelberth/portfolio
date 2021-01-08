@@ -1,3 +1,5 @@
+/*CONTENT*/
+
 #kontakt {
     background-color: #F0EBE7;
     margin-right: 0.5rem;
@@ -13,41 +15,17 @@
     margin-top: 40px;
     line-height: 4rem;
 
-
-}
-
-.kontaktinfo img {
-    height: 5vw;
-
 }
 
 .telefon {
     margin-left: 1vw;
 }
 
-.image img {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 113%;
-
-}
-
 .kontakt {
     color: #2b645d;
 }
 
-/*    SKRIFT*/
-
-p {
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-h1 {
-    font-family: 'Oswald', sans-serif;
-}
-
-/*Forms */
+/*FORMS */
 
 input,
 textarea,
@@ -87,7 +65,37 @@ select {
     font-size: 1rem;
 }
 
+
+/*TEXT STYLES*/
+
+p {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 250;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+/*IMAGES*/
+
+.kontaktinfo img {
+    height: 5vw;
+
+}
+
+.image img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 113%;
+
+}
+
+
 @media (min-width: 900px) {
+
+    /*    CONTENT*/
 
     #kontakt {
         display: grid;
@@ -117,6 +125,9 @@ select {
         grid-column: 1/1;
 
     }
+
+    /*    IMAGES*/
+
 
     .image img {
         width: 80%;

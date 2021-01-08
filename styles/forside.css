@@ -1,3 +1,7 @@
+/*Mobile version*/
+
+/*CONTENT*/
+
 #frontpage {
     overflow: hidden;
 }
@@ -37,6 +41,8 @@
 
 }
 
+/*TEXT STYLES */
+
 @font-face {
     font-family: 'shantikregular';
     src: url('fonts/shantik-webfont.woff2') format('woff2'),
@@ -61,17 +67,16 @@ h1 {
 }
 
 p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 250;
     font-size: 1rem;
     line-height: 1.4;
 }
 
 @media (min-width: 650px) {
 
-    .frontpage_img img {
-        height: 42vw;
-        width: 100%;
 
-    }
+    /*CONTENT*/
 
     .frontpage_text {
         display: block;
@@ -96,6 +101,8 @@ p {
 
     }
 
+    /*    TEXT STYLES*/
+
 
     h1 {
         font-family: 'shantikregular';
@@ -107,16 +114,19 @@ p {
         font-size: 1rem;
         line-height: 1.4;
     }
-}
 
-@media (min-width: 1000px) {
+    /*    IMAGES */
 
     .frontpage_img img {
         height: 42vw;
         width: 100%;
 
     }
+}
 
+@media (min-width: 1000px) {
+
+    /*   CONTENT */
 
     .frontpage_text {
         display: block;
@@ -144,6 +154,8 @@ p {
 
     }
 
+    /*    TEXT STYLES*/
+
     h1 {
         font-size: 3rem;
 
@@ -152,3 +164,13 @@ p {
     p {
         font-size: 1.3rem;
     }
+
+    /*    IMAGES*/
+
+    .frontpage_img img {
+        height: 42vw;
+        width: 100%;
+
+    }
+
+}
