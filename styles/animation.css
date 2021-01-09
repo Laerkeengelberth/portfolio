@@ -59,6 +59,11 @@ body {
     font-size: 2.5rem;
     background-color: white;
     text-align: left;
+    padding-bottom: 5vw;
+}
+
+.link2 {
+    padding-top: 6vw;
 }
 
 
@@ -74,9 +79,122 @@ body {
 }
 
 .col2 img {
-    width: 85vw;
-    height: 55vw;
+    width: 90vw;
+    height: 60vw;
 
+}
+
+/*SLIDESHOW*/
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.imgtext2 {
+    right: 70px;
+    position: relative;
+    text-align: center;
+
+}
+
+.imgtext2 h2 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2em;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+    background-color: #2b645d;
+    padding: 5px 15px;
+    display: inline-block;
+
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    position: relative;
+    left: 85px;
+    bottom: 60px;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #cbc0b8;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+
+}
+
+.active,
+.dot:hover {
+    background-color: #2b645d;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 
@@ -105,7 +223,7 @@ body {
     }
 
     .text {
-        padding-right: 1.5vw;
+        padding-right: 2vw;
         padding-bottom: 2vw;
 
     }
@@ -113,7 +231,7 @@ body {
     .skills {
         position: relative;
         left: 6vw;
-        top: 3vw;
+        top: 0;
         bottom: 4vw;
 
     }
@@ -127,18 +245,20 @@ body {
     /*    LINKS STYLES*/
 
     .link1 {
+        padding-top: 0;
         padding-left: 6vw;
+
     }
 
     .link2 {
         padding-left: 6vw;
-        padding-top: 6vw;
+        padding-top: 4vw;
         padding-bottom: 1vw;
     }
 
     .link3 {
         padding-left: 6vw;
-        padding-top: 1vw;
+        padding-top: 0;
         padding-bottom: 2vw;
     }
 
@@ -154,6 +274,37 @@ body {
         width: 45vw;
         height: 30vw;
         margin-bottom: 5vw;
+
+    }
+
+    /*    SLIDESHOW*/
+
+    /* Hide the images by default */
+    .mySlides {
+        display: none;
+        height: 450px;
+    }
+
+    /* Caption text */
+    .imgtext2 {
+        right: 80px;
+        bottom: 95px;
+        position: relative;
+        text-align: center;
+
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        bottom: 82px;
+    }
+
+    @font-face {
+        font-family: 'shantikregular';
+        src: url('fonts/shantik-webfont.woff2') format('woff2'),
+            url('fonts/shantik-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
 
     }
 
