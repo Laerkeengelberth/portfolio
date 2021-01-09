@@ -9,6 +9,55 @@
     padding-right: 1rem;
 }
 
+.button {
+    background-color: white;
+    color: black;
+    width: 150px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+    transition: all 0.5s;
+
+}
+
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button:hover {
+    background-color: #2b645d;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
 /* TEXT STYLES */
 
 #praesentation_section p {
@@ -32,9 +81,9 @@
 
 /*IMAGES */
 
-.row_img img {
-    max-width: 100%;
-    height: auto;
+.image img {
+    width: 86vw;
+    height: 105vw;
 }
 
 @media (min-width: 1000px) {
@@ -68,14 +117,14 @@
 
     /*    IMAGES*/
 
-    .row_img {
-        max-width: 100%;
-        height: auto;
+    .image img {
+        width: 100vw;
+        height: 40vw;
         box-sizing: border-box;
         flex: 0 0 70.666667%;
-        max-width: 70.666667%;
+        max-width: 80.666667%;
         padding: 2rem;
-        margin-top: 1rem;
+        margin-top: 3rem;
         margin-left: 4rem;
 
     }
