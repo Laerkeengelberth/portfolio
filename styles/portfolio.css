@@ -4,10 +4,10 @@ body {
 
 /*TEXT STYLES*/
 
-h1 {
+#portfolio h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 3rem;
-    color: black;
+    color: dimgrey;
     padding-left: 5vw;
 }
 

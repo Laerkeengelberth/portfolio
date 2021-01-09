@@ -32,13 +32,13 @@ body {
 
 /* TEXT STYLES*/
 
-h1 {
+#ux h1 {
     font-size: 2rem;
     color: #2b645d;
 
 }
 
-p {
+#ux p {
     line-height: 1.5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 250;

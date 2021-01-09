@@ -11,13 +11,14 @@
 
 /* TEXT STYLES */
 
-p {
+#praesentation_section p {
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 250;
+
 }
 
-h1 {
+#praesentation_section h1 {
     font-family: 'Oswald', sans-serif;
 }
 
