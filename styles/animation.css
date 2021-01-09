@@ -44,7 +44,7 @@ body {
 #animation p {
     line-height: 1.5rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: 250;
+    font-weight: 200;
 }
 
 .imgtext {
@@ -94,12 +94,11 @@ body {
     margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
     display: none;
 }
 
-/* Next & previous buttons */
+/*BUTTONS */
 .prev,
 .next {
     cursor: pointer;
@@ -116,19 +115,13 @@ body {
     user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Position "next button" --> right */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
+/* IMAGE TEXT */
 .imgtext2 {
     right: 70px;
     position: relative;
@@ -148,7 +141,7 @@ body {
 
 }
 
-/* The dots/bullets/indicators */
+/* DOTS */
 .dot {
     position: relative;
     left: 85px;
@@ -171,20 +164,8 @@ body {
 
 /* Fading animation */
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
 }
 
 @keyframes fade {
@@ -279,7 +260,6 @@ body {
 
     /*    SLIDESHOW*/
 
-    /* Hide the images by default */
     .mySlides {
         display: none;
         height: 450px;
