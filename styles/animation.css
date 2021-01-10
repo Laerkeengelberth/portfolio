@@ -47,8 +47,10 @@ body {
     font-weight: 200;
 }
 
-.imgtext {
+figcaption {
     font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 
@@ -218,7 +220,7 @@ body {
     }
 
 
-    .imgtext {
+    figcaption {
         margin-bottom: 2vw;
     }
 

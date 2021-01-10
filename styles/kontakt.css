@@ -88,9 +88,16 @@ select {
 .image img {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    width: 113%;
-
+    margin-left: 1.3rem;
+    width: 100%;
+    transition: transform .5s ease;
 }
+
+.image:hover img {
+    transform: scale(1.1);
+}
+
+
 
 
 @media (min-width: 900px) {

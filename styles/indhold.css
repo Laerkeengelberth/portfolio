@@ -48,9 +48,10 @@ body {
     font-weight: 200;
 }
 
-.videotext p {
+figcaption {
     font-style: italic;
-
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 

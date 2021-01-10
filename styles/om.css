@@ -84,7 +84,13 @@
 .image img {
     width: 86vw;
     height: 105vw;
+    transition: transform .5s ease;
 }
+
+.image:hover img {
+    transform: scale(1.1);
+}
+
 
 @media (min-width: 1000px) {
 

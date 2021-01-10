@@ -75,7 +75,7 @@ body {
         margin-left: 4.5vw;
         margin-right: 4.5vw;
         justify-content: space-between;
-
+        animation: fadeInLeft;
 
     }
 
@@ -83,6 +83,7 @@ body {
         position: relative;
         overflow: hidden;
         margin-left: 0;
+        animation: fadeInLeft;
 
 
     }

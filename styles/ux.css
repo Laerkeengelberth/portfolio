@@ -44,9 +44,11 @@ body {
     font-weight: 200;
 }
 
-.imgtext1 p {
+figcaption {
     font-style: italic;
     padding-left: 6vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 /*LINKS STYLE*/
@@ -223,7 +225,7 @@ body {
 
     }
 
-    .imgtext1 p {
+    figcaption {
         padding-left: 3vw;
     }
 
