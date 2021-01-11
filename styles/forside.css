@@ -75,6 +75,15 @@ p {
     line-height: 1.4;
 }
 
+.projekter_knap:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
 @media (min-width: 650px) {
 
 
@@ -127,6 +136,8 @@ p {
 
 }
 
+
+
 @media (min-width: 1000px) {
 
     /*   CONTENT */
@@ -171,7 +182,7 @@ p {
     /*    IMAGES*/
 
     .frontpage_img img {
-        height: 42vw;
+        height: 43vw;
         width: 100%;
 
     }

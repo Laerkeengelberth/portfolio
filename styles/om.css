@@ -1,6 +1,12 @@
+section {
+    max-width: 1200px;
+}
+
+/*Mobile version*/
+
 /*CONTENT*/
 
-.section_wrapper {
+#om {
     background-color: #F0EBE7;
     margin-right: 0.5rem;
     margin-left: 0.5rem;
@@ -12,9 +18,9 @@
 .button {
     background-color: white;
     color: black;
-    width: 150px;
+    width: 220px;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
     border: none;
     padding: 5px 10px 5px 10px;
@@ -60,15 +66,18 @@
 
 /* TEXT STYLES */
 
-#praesentation_section p {
-    font-size: 1.2rem;
+#om p {
+    font-size: 1.1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
+    padding-right: 10vw;
 
 }
 
-#praesentation_section h1 {
+#om h1 {
+    font-size: 1.8rem;
     font-family: 'Oswald', sans-serif;
+
 }
 
 .col1 p {
@@ -82,9 +91,13 @@
 /*IMAGES */
 
 .image img {
-    width: 86vw;
-    height: 105vw;
+    width: 80vw;
+    height: 100vw;
     transition: transform .5s ease;
+    position: relative;
+    top: 12vw;
+    left: 3vw;
+    margin-bottom: 19vw;
 }
 
 .image:hover img {
@@ -96,21 +109,28 @@
 
     /*    CONTENT*/
 
-    .section_wrapper {
+    #om {
         display: grid;
         flex-wrap: wrap;
         grid-template-columns: 1fr 1fr;
         background-color: #F0EBE7;
         box-sizing: border-box;
         margin: 1rem;
-        margin-right: 4.5rem;
+        margin-right: 1.5rem;
         margin-left: 5rem;
+        padding: 2rem;
 
     }
 
     .row_tekst {
         max-width: 100%;
-        padding: 2rem;
+        padding-right: 0;
+    }
+
+
+    .button {
+        font-size: 1.4rem;
+
     }
 
 
@@ -124,15 +144,15 @@
     /*    IMAGES*/
 
     .image img {
-        width: 100vw;
-        height: 40vw;
+        position: relative;
+        width: 83vw;
+        height: 36vw;
         box-sizing: border-box;
         flex: 0 0 70.666667%;
-        max-width: 80.666667%;
-        padding: 2rem;
-        margin-top: 3rem;
-        margin-left: 4rem;
-
+        max-width: 69.666667%;
+        top: 5vw;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
 }

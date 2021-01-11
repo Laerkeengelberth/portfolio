@@ -1,3 +1,9 @@
+section {
+    max-width: 1200px;
+}
+
+/*Mobile version*/
+
 /*CONTENT*/
 
 #kontakt {
@@ -96,8 +102,6 @@ select {
 .image:hover img {
     transform: scale(1.1);
 }
-
-
 
 
 @media (min-width: 900px) {

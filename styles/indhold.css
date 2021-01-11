@@ -1,6 +1,12 @@
+section {
+    max-width: 1200px;
+}
+
 body {
     background-image: url(images/background.jpg);
 }
+
+/*Mobile version*/
 
 /*CONTENT*/
 
