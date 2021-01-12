@@ -15,6 +15,11 @@ section {
     padding-right: 1rem;
 }
 
+.row_tekst {
+    max-width: 100%;
+    padding-right: 5vw;
+}
+
 .button {
     background-color: white;
     color: black;
@@ -69,7 +74,7 @@ section {
 #om p {
     font-size: 1.1rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     padding-right: 10vw;
 
 }

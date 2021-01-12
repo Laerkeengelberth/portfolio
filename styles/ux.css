@@ -143,27 +143,6 @@ body {
 
 }
 
-/* DOTS */
-.dot {
-    position: relative;
-    left: 40px;
-    bottom: 60px;
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 5px;
-    background-color: #cbc0b8;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-
-}
-
-.active,
-.dot:hover {
-    background-color: #2b645d;
-}
-
 /* Fading animation */
 .fade {
     animation-name: fade;
@@ -264,28 +243,10 @@ body {
         width: 25vw;
         height: 35vw;
         margin-top: 0;
-        margin-right: 15vw;
+        margin-right: 9vw;
         margin-bottom: 4vw;
 
     }
-
-    /*    SLIDESHOW*/
-
-    /* IMAGE TEXT */
-    .imgtext2 {
-        top: 10px;
-        right: 120px;
-
-    }
-
-    /* DOTS */
-    .dot {
-        left: 10px;
-        bottom: 50px;
-        margin-bottom: 0;
-
-    }
-
 
 
 }
