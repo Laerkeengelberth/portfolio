@@ -13,7 +13,7 @@ function toggleMenu() {
     let erSkjult = document.querySelector("menu").classList.contains("hidden");
 
     if (erSkjult == true) {
-        document.querySelector("#menuknap").textContent = "☰ MENU";
+        document.querySelector("#menuknap").textContent = "☰";
 
     }
 

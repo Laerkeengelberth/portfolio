@@ -91,12 +91,12 @@ section {
 /*IMAGES */
 
 .image img {
-    width: 80vw;
-    height: 100vw;
+    width: 85vw;
+    height: 106vw;
     transition: transform .5s ease;
     position: relative;
     top: 12vw;
-    left: 3vw;
+    left: 1vw;
     margin-bottom: 19vw;
 }
 
