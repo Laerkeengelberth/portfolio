@@ -44,7 +44,7 @@ body {
     font-weight: 200;
 }
 
-figcaption {
+.imgtext p {
     font-style: italic;
     padding-left: 6vw;
     font-family: 'Roboto', sans-serif;
@@ -224,7 +224,7 @@ figcaption {
 
     }
 
-    figcaption {
+    .imgtext p {
         padding-left: 3vw;
     }
 

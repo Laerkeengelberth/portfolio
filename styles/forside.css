@@ -18,7 +18,7 @@
 
 }
 
-.frontpage_text {
+.velkommen_text {
     display: block;
     position: absolute;
     background-color: #2b645d;
@@ -157,7 +157,7 @@
 
 }
 
-.frontpage_text p,
+.velkommen_text p,
 h1 {
     margin: 0px;
     padding: 2px;
@@ -183,7 +183,7 @@ p {
     /*   CONTENT */
 
 
-    .frontpage_text {
+    .velkommen_text {
         display: block;
         position: absolute;
         bottom: 18.1% !important;
