@@ -40,7 +40,7 @@ button {
     background: white;
     border: none;
     width: 23rem;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5rem;
     box-sizing: border-box;
     border-radius: 4px;
@@ -55,12 +55,13 @@ form {
 
 button {
     margin-top: 10px;
+
 }
 
 label {
     display: block;
     margin-top: 10px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
 
 }
@@ -84,6 +85,10 @@ select {
     font-family: 'Oswald', sans-serif;
 }
 
+#kontakt h2 {
+    font-size: 1.3rem;
+}
+
 /*IMAGES*/
 
 .kontaktinfo img {
@@ -97,10 +102,6 @@ select {
     margin-left: 1.3rem;
     width: 100%;
     transition: transform .5s ease;
-}
-
-.image:hover img {
-    transform: scale(1.1);
 }
 
 
@@ -148,6 +149,10 @@ select {
 
     .kontaktinfo img {
         height: 1.5vw;
+    }
+
+    .image:hover img {
+        transform: scale(1.1);
     }
 
 }

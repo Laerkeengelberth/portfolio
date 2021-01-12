@@ -100,10 +100,6 @@ section {
     margin-bottom: 19vw;
 }
 
-.image:hover img {
-    transform: scale(1.1);
-}
-
 
 @media (min-width: 1000px) {
 
@@ -153,6 +149,10 @@ section {
         top: 5vw;
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    .image:hover img {
+        transform: scale(1.1);
     }
 
 }
